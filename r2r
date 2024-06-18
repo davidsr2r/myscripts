@@ -1,3 +1,4 @@
 # LSW won't execute .cmd files by default? so run via vs-cmd
 # Feels like there should be a better way.
-echo "r2r.cmd $*" | vs-cmd
+echo "r2rtool.cmd $*" | vs-cmd
+
